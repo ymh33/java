@@ -1,0 +1,13 @@
+package ch04_01;
+
+import java.io.IOException;
+
+public class While02 {
+
+	public static void main(String[] args) throws IOException {
+		System.out.println("보고싶은 구구단은?");
+		int num = System.in.read()- 0;
+		System.out.println("num->" + num);
+	}
+
+}

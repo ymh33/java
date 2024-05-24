@@ -1,0 +1,39 @@
+package ch04_01;
+
+//     X > 97 A+
+//     X > 94 A-
+//else A0
+public class If04 {
+
+	public static void main(String[] args) {
+		int score = Integer.parseInt(args[0]);
+		String grade = "";
+		
+		if(score > 97) {
+			grade = "A+"; {
+				if (score > 94) grade = "A-"; 
+				else grade = "A0"; 
+				
+		if(score > 87) {
+			grade = "B+"; {
+				if (score > 84) grade = "B0" ;
+				else grade = "B-";
+				
+		if(score > 77) {
+			grade = "C+"; {
+				if (score > 74) grade = "C0";
+				else grade = "C-";
+		}
+					
+					}else grade = "D";
+		System.out.println("점수" + score+ "학점은" + grade);
+				}
+			}
+			
+			
+		}
+
+	}
+
+}
+}
