@@ -1,7 +1,6 @@
 package ch08_robot;
 
 import ch08_robot.actions.FireOk;
-import ch08_robot.actions.FlyAction;
 import ch08_robot.actions.FlyOk;
 import ch08_robot.actions.knifeWithLazer;
 

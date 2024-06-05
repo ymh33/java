@@ -1,4 +1,4 @@
-package ch08_robot;
+도package ch08_robot;
 
 import ch08_robot.actions.FireOk;
 import ch08_robot.actions.FlyNo;

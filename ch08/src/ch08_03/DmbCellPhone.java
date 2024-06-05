@@ -15,9 +15,9 @@ public class DmbCellPhone extends CellPhone {
 		channel = 10;
 		System.out.println("채널" +channel+ "번 DMB 방송 수신을 시작합니다");
 	}
-	int changeChannelDmb(int channel) {
+	void changeChannelDmb(int channel) {
+		this.channel = channel;
 		System.out.println("채널" +channel+ "번으로 바꿉니다");
-		return channel;
 	}
 	void turnOffDmb() {
 		System.out.println("DMB 방송 수신을 멈춥니다");

@@ -1,6 +1,5 @@
 package ch06_ex01;
 
-import ch06_ex09.PackTest01;
 
 public class PackTest01 {
 
