@@ -3,7 +3,7 @@ package ch11_01;
 import java.util.Vector;
 
 public class VectorEx01 {
-
+//ArrayList와 비교해서 오래된 기능이며 동기화가 자동으로 된다
 	public static void main(String[] args) {
 		Vector<String> vc = new Vector<String>();
 		vc.add("구렁2");

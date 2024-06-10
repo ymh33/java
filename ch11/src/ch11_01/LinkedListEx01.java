@@ -21,7 +21,7 @@ public class LinkedListEx01 {
 		System.out.println("-----------Simple------------");
 		i = 0;
 		while(!kk.isEmpty()) {
-			System.out.println(i+ "->" +kk.poll());
+			System.out.println(i+ "->" +kk.poll());//poll은 불러내고나면 삭제함
 			i++;
 		}
 
